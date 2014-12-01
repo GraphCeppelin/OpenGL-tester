@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8aef942c-9480-48e8-9d95-3a0cf6d89fa6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ea8aa786-9d43-46d9-b079-5181a624b7db}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2d705b46-30d9-4280-9915-42237e176117}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{7fe40483-ff7f-40b1-911b-7196cc5cd472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{2955104e-ac40-42c1-b17f-54e539ffa7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBO">
+      <UniqueIdentifier>{a1aa3d7e-b010-474e-81e6-2f01fa20d252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FBO">
+      <UniqueIdentifier>{ea70e1c4-19b2-4ac3-9867-54a049e970d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FBO\Shader">
+      <UniqueIdentifier>{4d84bd3e-98e7-443c-9a36-27ff62212474}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RgbImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\controls.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\objloader.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\quaternion_utils.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\shader.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tangentspace.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\text2D.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\texture.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\vboindexer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="FBOManager.cpp">
+      <Filter>Source Files\FBO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RgbImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glxew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\wglew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="common\controls.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\objloader.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\quaternion_utils.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\shader.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tangentspace.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\text2D.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\texture.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\vboindexer.hpp">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="FBOManager.h">
+      <Filter>Header Files\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\DrawSpecial_vert.hpp">
+      <Filter>Source Files\FBO\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\DrawSpecial_frag.hpp">
+      <Filter>Source Files\FBO\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Frame_vert.hpp">
+      <Filter>Source Files\FBO\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Frame_frag.hpp">
+      <Filter>Source Files\FBO\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
